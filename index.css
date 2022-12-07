@@ -1,0 +1,62 @@
+.container{
+  margin: 20px;
+  color: blue;
+  font: Arial 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.cardContainer{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.itemContainer{
+  width: 400px;
+  height:400px;
+  cursor: pointer;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  box-sizing: border-box;
+  box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px,
+  rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
+.itemContainer:nth-child(2){
+  background-color: blue;
+}
+
+.itemContainer:last-child{
+  background-color: purple;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  margin: 20px 20px 10px;
+}
+
+.infoContainer{
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+p{
+  color: white;
+}
+
+button{
+  background-color: grey;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: white;
+  border:none;
+  cursor: pointer;
+}
