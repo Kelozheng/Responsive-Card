@@ -14,6 +14,9 @@
   gap: 20px;
   flex-wrap: wrap;
 }
+.itemContainer:hover{
+  transform: translateY(-8px);
+}
 
 .itemContainer{
   width: 400px;
@@ -45,7 +48,8 @@ img{
 .infoContainer{
   display: flex;
   align-items: center;
-  gap: 130px;
+  justify-content: space-around;
+  gap: 120px;
 }
 
 p{
